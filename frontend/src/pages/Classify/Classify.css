@@ -1,0 +1,66 @@
+.classify {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.classify-form{
+    margin-bottom: 2rem;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid white;
+    border-style:dashed;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+#classify-file-input{
+    display: none;
+}
+
+.classify-file-input-lable{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    font-size: 2.5rem;   
+}
+
+.classify-upload{
+     display: flex;
+     gap: 1rem;
+     padding: 0.75rem 1rem;
+     border: 2px solid white;
+     border-radius: 10px;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+
+.classify-upload:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.upload-icon{
+    font-size: 2rem;
+}
+
+.classify-loading-result{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    background-color: rgba(0, 0, 0,0.8);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
